@@ -1,25 +1,25 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Whispering
+description: leslie's notes on web
+meta_description: "leslie's notes on we"
 
-aboutPage: true
+aboutPage: false
 
 markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://geekontheway.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://geekontheway.github.io'
+author:         'leslie'
+authorTwitter:  'geekzh'
 
-permalink:       /:year/:title/
+permalink:       /:year/:month/:day/:title/
 
 defaults:
     -
