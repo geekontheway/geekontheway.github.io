@@ -6,25 +6,25 @@ comments: true
 categories: [ruby, faraday, tietuku]
 ---
 
-![title](http://i2.tietuku.com/048176fa46259d35.jpg)
+![title](http://i2.tietuku.cn/048176fa46259d35.jpg)
 
-[贴图库](http://tietuku.com/)是国内一款免费、高速、稳定、专业图片外链、专注图片云存储服务，相比于七牛云存储，使用门槛较低。
+[贴图库](http://tietuku.cn/)是国内一款免费、高速、稳定、专业图片外链、专注图片云存储服务，相比于七牛云存储，使用门槛较低。
 
 
 [Faraday](https://github.com/lostisland/faraday) 是一个轻量灵活的 HTTP client.
 
-一直想写个贴图库的ruby sdk出来,今天抽空看了下[文档](http://open.tietuku.com/doc)，比较简单，先整理了下通过几行ruby code实现上传图片到贴图库的思路。
+一直想写个贴图库的ruby sdk出来,今天抽空看了下[文档](http://open.tietuku.cn/doc)，比较简单，先整理了下通过几行ruby code实现上传图片到贴图库的思路。
 
 开始之前，你可以先注册一个账号，登陆之后，可以在管理中心中找到自己的AccessKey和SecretKey，复制下来，后面我们用来生成操作签名(sign)。
 
 上传图片接口调用地址：
 
-http://up.tietuku.com/
+http://up.tietuku.cn/
 
 HTTP请求方式：Post
 
 
-![title](http://i2.tietuku.com/4c1dbe8c2dc826ef.jpg)
+![title](http://i2.tietuku.cn/4c1dbe8c2dc826ef.jpg)
 
 下面的代码跑在`ruby-1.9.3-p392`上，我们先打开`irb`, 引用需要用到的库
 
@@ -88,7 +88,7 @@ end
 
 param = param.merge({Token: token })
 
-response = conn.post 'http://up.tietuku.com', param
+response = conn.post 'http://up.tietuku.cn', param
 
 result = JSON.parse response.body
 {% endhighlight %}

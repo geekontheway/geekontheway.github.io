@@ -6,7 +6,7 @@ comments: true
 categories: [ruby, rails, turbolinks]
 ---
 
-![title](http://i2.tietuku.com/2431fbe2cee381fd.jpg  )
+![title](http://i2.tietuku.cn/2431fbe2cee381fd.jpg  )
 
 Turbolinks使站内跳转更快，原理是Turbolinks监听了页面内的链接，跳转页面用ajax请求并替换body内容，不用重新解析已加载的静态资源, 同时通过pushState修改地址栏地址。
 
