@@ -4,8 +4,8 @@ meta_description: "leslie's notes on we"
 
 aboutPage: false
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
 paginate: 20
 baseurl: /
