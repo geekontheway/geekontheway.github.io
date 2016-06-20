@@ -1,6 +1,6 @@
-name: Whispering
-description: leslie's notes on web
-meta_description: "leslie's notes on we"
+name: MrLeslie
+description: MrLeslie's notes on web
+meta_description: "MrLeslie's notes on we"
 
 aboutPage: false
 
@@ -16,7 +16,7 @@ disqus_shortname: 'MrLeslie'
 
 # Details for the RSS feed generator
 url:            'http://geekontheway.github.io'
-author:         'leslie'
+author:         'MrLeslie'
 authorTwitter:  'geekzh'
 
 permalink:       /:year/:month/:day/:title/
