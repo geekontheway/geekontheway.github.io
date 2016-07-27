@@ -3,7 +3,7 @@ layout: post
 title: "安装Ruby Gem 取消文档"
 date: 2012-05-23 23:48
 comments: true
-categories: [mac]
+categories: [Ruby, Gem]
 ---
 
 单个Gem不安装文档
