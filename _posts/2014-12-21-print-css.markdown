@@ -1,0 +1,43 @@
+---
+layout: post
+title: "禁用前端框架部分 print 样式"
+date: 2014-11-21 22:29
+comments: true
+categories: tips
+---
+
+`Bootstrap`, `Foundation`, `AmazeUI`, `html5-boilerplate` 这些框架，在浏览器(Chrome)打印时，会有以下处理：
+
+1.设置辅助 class 实现 部分浏览器可见，打印机隐藏 或者  打印机可见，浏览器隐藏。
+
+2.将 `color` 设置成黑色，删除 `background` 、`text-shadow` 、`box-shadow` 样式，以节省打印机耗材，加快打印速度。
+
+3.会利用 CSS3 content 属性，将 `<a>` 和 `<abbr>` 的标题、链接显示在后面：
+
+```
+  @media print {
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+  }
+
+```
+
+如果要禁用禁用链接显示
+
+```
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+```
+
+延伸阅读：
+
+[How To Create A Simple Print CSS For Your Site](http://www.onextrapixel.com/2009/05/05/how-to-create-a-simple-print-css-for-your-site/)
+
+[CSS Design: Going to Print](http://alistapart.com/article/goingtoprint/)
+
+
+
