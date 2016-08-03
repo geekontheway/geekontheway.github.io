@@ -10,6 +10,8 @@ categories: [apache, rewrite]
 
 Apache mod_rewrite 规则重写的标志一览
 
+```
+
   R[=code](force redirect) 强制外部重定向
 
   强制在替代字符串加上http://thishost[:thisport]/前缀重定向到外部的URL.如果code不指定，将用缺省的302 HTTP状态码。
@@ -42,7 +44,12 @@ Apache mod_rewrite 规则重写的标志一览
 
   PT(pass through to next handler) 传递给下一个处理
 
-  例如：
+```
+
+
+例如：
+
+```
 
   RewriteRule ^/abc(.*) /def$1 [PT] # 将会交给/def规则处理
 
@@ -54,14 +61,23 @@ Apache mod_rewrite 规则重写的标志一览
 
   反向引用 %N 用于 RewriteCond 中最后一个匹配的变量调用(1 <= N <= 9)
 
+```
+
 使用mod_rewrite时常用的服务器变量：
+
+```
 
   HTTP headers:HTTP_USER_AGENT, HTTP_REFERER, HTTP_COOKIE, HTTP_HOST, HTTP_ACCEPT
   connection & request: REMOTE_ADDR, QUERY_STRING
   server internals: DOCUMENT_ROOT, SERVER_PORT, SERVER_PROTOCOL
   system stuff: TIME_YEAR, TIME_MON, TIME_DAY
 
+```
+
 RewriteRule规则表达式的说明：
+
+```
+
   . 匹配任何单字符
   [chars] 匹配字符串:chars
   [^chars] 不匹配字符串:chars
@@ -72,6 +88,8 @@ RewriteRule规则表达式的说明：
   ^ 字符串开始标志
   $ 字符串结束标志
   n 转义符标志
+
+```
 
 RewriteCond适用的标志符
 
@@ -99,12 +117,18 @@ RewriteRule适用的标志符
 
 例子：
 
+```
+
   RewriteEngine on
   RewriteCond %{HTTP_USER_AGENT} ^MSIE [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ^Opera [NC]
   RewriteRule ^.* – [F,L] 这里”-”表示没有替换，浏览器为IE和Opera的访客将被禁止访问。
 
+```
+
 例子：
+
+```
 
   RewriteEngine On
   RewriteBase /test
@@ -114,19 +138,19 @@ RewriteRule适用的标志符
   RewriteRule ([^/]+).html$ /test/$1.php [L]
   #for example: /test/admin.html => /test/admin.php
 
+```
+
 限制目录只能显示图片
 
+```
   < IfModule mod_rewrite.c>
   RewriteEngine on
   RewriteCond %{REQUEST_FILENAME} !^.*.(gif|jpg|jpeg|png|swf)$
   RewriteRule .*$ – [F,L]
   < /IfModule>
 
+```
+
 更多：
 
 [APACHE REWRITE规则（内部重定向、外部重定向）](http://smilejay.com/2012/10/apache-rewrite/)
-
-
-
-  E=VAR:VAL(set environment variable) 设置环境变量
-
