@@ -23,15 +23,17 @@ email: geekontheway@163.com
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://geekontheway.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rubyonrailsworks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: geekzh
-github_username:  geekontheway
+github_username:  rubyonrailsworks
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 list_title: ""
+sass:
+  quiet_deps: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
