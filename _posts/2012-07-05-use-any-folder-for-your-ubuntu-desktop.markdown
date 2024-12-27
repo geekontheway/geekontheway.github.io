@@ -17,14 +17,3 @@ XDG_DESKTOP_DIR="$HOME/Desktop"
 {% highlight ruby %}
 killall nautilus
 {% endhighlight %}
-
-> 今天部署了好久没部署上去，后来想清楚忘了在新电脑上rake_github_pages.
-
-<pre>Enter the read/write url for your repository: git@github.com:geekontheway/geekontheway.github.com.git
-	  Added remote git@github.com:geekontheway/geekontheway.github.com.git as origin
-	  Set origin as default remoteMaster branch renamed to 'source' for committing your blog source files
-	  Initialized empty Git repository in /home/nasa/www/octopress/_deploy/.git/
-	  [master (root-commit) 75592aa] Octopress init
-	   1 files changed, 1 insertions(+), 0 deletions(-)
-	 create mode 100644 index.html
-         ## Now you can deploy to http://geekontheway.github.com with `rake deploy` ##</pre>
