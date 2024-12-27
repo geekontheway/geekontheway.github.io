@@ -28,9 +28,10 @@ twitter_username: geekzh
 github_username:  geekontheway
 
 # Build settings
-theme: moving
+theme: minima
 plugins:
   - jekyll-feed
+list_title: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default.
