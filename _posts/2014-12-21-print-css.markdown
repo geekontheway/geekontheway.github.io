@@ -3,7 +3,6 @@ layout: post
 title: "禁用前端框架部分 print 样式"
 date: 2014-11-21 22:29
 comments: true
-categories: tips
 ---
 
 `Bootstrap`, `Foundation`, `AmazeUI`, `html5-boilerplate` 这些框架，在浏览器(Chrome)打印时，会有以下处理：

@@ -3,7 +3,6 @@ layout: post
 title: "找回ubuntu桌面"
 date: 2012-07-05 23:51
 comments: true
-categories: [ubuntu]
 ---
 晚上打开电脑发现桌面上堆满了文件和文件夹，仔细一看，全是HOME文件夹中的文件，打开~/.config/user-dirs.dirs，果然配置被修改了
 {% highlight ruby %}

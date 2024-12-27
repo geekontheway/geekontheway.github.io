@@ -3,7 +3,6 @@ layout: post
 title: "回归"
 date: 2015-01-17 03:00
 comments: true
-categories: [回归]
 ---
 > 新的开始。
 > 没有写博客的日子，好像落下了很多东西。这一年，学到的东西很多，沉淀下来的却没几个。

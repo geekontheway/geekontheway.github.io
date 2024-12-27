@@ -3,7 +3,6 @@ layout: post
 title: "记得……香蕉成熟时"
 date: 2012-02-17 03:57
 comments: true
-categories: [北京往事,我所喜欢的电影,青春音乐]
 ---
 
 

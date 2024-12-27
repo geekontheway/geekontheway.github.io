@@ -3,7 +3,6 @@ layout: post
 title: "Rails基本环境配置"
 date: 2011-12-24 06:10
 comments: true
-categories: [Rails,Apache,Nginx,Httpd,Mysql,Mac,Ubuntu,Linux,CentOS,Database]
 ---
 
 

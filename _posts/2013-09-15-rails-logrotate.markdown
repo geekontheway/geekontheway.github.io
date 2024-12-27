@@ -3,7 +3,6 @@ layout: post
 title: "Rails 日志切割"
 date: 2013-09-15 23:48
 comments: true
-categories: [Rails, Linux, Logorotate]
 ---
 
 编辑日志切割配置 `/etc/logrotate.conf`, 新增 Rails 日志配置项

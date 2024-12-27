@@ -3,7 +3,6 @@ layout: post
 title: "Rails4中剥离的gem"
 date: 2013-09-03 00:16
 comments: true
-categories: [rails4]
 ---
 原文链接：[Upgrading Rails: Gems Extracted in Rails 4](http://www.andylindeman.com/2013/03/05/gems-extracted-in-rails-4.html "Upgrading Rails: Gems Extracted in Rails 4")
 

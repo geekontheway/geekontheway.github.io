@@ -3,7 +3,6 @@ layout: post
 title: "国际通用的测试信用卡"
 date: 2012-02-19 23:48
 comments: true
-categories: [web]
 ---
 
 测试信用卡可以用来系统测试，接收响应，但最后在银行审批的时候会拒绝处理，不会发生真实的交易。

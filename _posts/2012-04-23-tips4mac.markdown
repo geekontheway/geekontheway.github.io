@@ -3,7 +3,6 @@ layout: post
 title: "Mac的defaults命令"
 date: 2012-04-23 23:48
 comments: true
-categories: [mac]
 ---
 有的时候我们通过使用一些终端命令来对Mac OS X系统进行设置，比如在Finder标题栏显示完整路径,可以使用
 

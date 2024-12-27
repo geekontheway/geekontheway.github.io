@@ -3,7 +3,6 @@ layout: post
 title: "添加turbolinks"
 date: 2014-08-25 23:14
 comments: true
-categories: [ruby, rails, turbolinks]
 ---
 
 ![title](http://i2.tietuku.cn/2431fbe2cee381fd.jpg  )

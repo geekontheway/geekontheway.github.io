@@ -3,7 +3,6 @@ layout: post
 title: "在类Unix系统上安装MySQL的一般方式"
 date: 2011-12-24 06:08
 comments: true
-categories: [Rails,Mysql,Mac,Ubuntu,Linux,CentOS,Database]
 ---
 
 >CentOS 5

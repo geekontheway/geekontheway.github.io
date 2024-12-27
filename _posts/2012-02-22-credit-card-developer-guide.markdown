@@ -2,8 +2,6 @@
 layout: post
 title: "信用卡指南-开发人员检查清单"
 date: 2012-02-22 23:48
-comments: true
-categories: [web]
 ---
 
 有关客户信用卡截断的强制性要求

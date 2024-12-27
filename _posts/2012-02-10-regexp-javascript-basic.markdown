@@ -3,7 +3,6 @@ layout: post
 title: "Javascrpit中的正则表达式"
 date: 2012-02-10 23:10
 comments: true
-categories: [正则表达式，Javascript]
 ---
 
 建立正则表达式对象语法

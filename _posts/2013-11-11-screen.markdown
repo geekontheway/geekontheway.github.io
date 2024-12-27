@@ -3,7 +3,6 @@ layout: post
 title: "screen笔记"
 date: 2013-11-21 22:29
 comments: true
-categories: tips
 ---
 
 原文地址：[linux 技巧：使用 screen 管理你的远程会话](http://www.ibm.com/developerworks/cn/linux/l-cn-screen/)

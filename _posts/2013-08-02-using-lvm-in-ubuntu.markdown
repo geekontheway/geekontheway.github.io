@@ -3,7 +3,6 @@ layout: post
 title: "Ubuntu配置LVM服务器"
 date: 2013-08-02 00:38
 comments: true
-categories: [ubuntu]
 ---
 
 安装好系统后，配置主机名，DNS，IP，重启生效。

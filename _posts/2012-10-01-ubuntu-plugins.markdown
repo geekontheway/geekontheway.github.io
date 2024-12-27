@@ -3,8 +3,6 @@ layout: post
 title: "Ubuntu的几个插件"
 date: 2012-10-01 14:55
 comments: true
-categories: [ubuntu]
-description: "Ubuntu的几个插件: 防止显示器休眠, 系统负载"
 ---
 ##Caffeine
 

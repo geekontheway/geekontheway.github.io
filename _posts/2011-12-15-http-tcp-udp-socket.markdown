@@ -3,7 +3,6 @@ layout: post
 title: "HTTP TCP UDP SOCKET"
 date: 2011-12-15 19:40
 comments: true
-categories: [HTTP,TCP,UDP,SOCKET]
 ---
 
 ![image](http://hbimg.b0.upaiyun.com/896c31867495ba6b77820de84d3db64fadaa39d132523-JnHkwZ_fw658)

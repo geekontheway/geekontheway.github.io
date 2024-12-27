@@ -3,7 +3,6 @@ layout: post
 title: "使用MAC自带预览软件批量处理图像"
 date: 2012-07-11 00:22
 comments: true
-categories: [mac]
 ---
 如果你需要多个文件一次Preview，在preview偏好设置里面选择“用同一窗口打开不同文件”
 

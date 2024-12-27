@@ -3,7 +3,6 @@ layout: post
 title: "在SUSE上部署RubyOnRails应用环境"
 date: 2013-08-18 00:33
 comments: true
-categories: [suse,ruby,rails]
 ---
 >1.设置IP,hostname,dns
 

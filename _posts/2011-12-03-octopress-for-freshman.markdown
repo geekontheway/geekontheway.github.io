@@ -3,7 +3,6 @@ layout: post
 title: "Octopress: 新手教程"
 date: 2011-12-03 09:16
 comments: true
-categories: otocpress
 ---
 
 Octopress基于jekyll，刚开始使用起来也比较复杂：
